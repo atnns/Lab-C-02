@@ -14,13 +14,8 @@ int main(int argc, char **argv) {
 
   double area, base, height;
 
-  printf("Please enter the base of a triangle: ");
-
-  scanf("%lf", &base);
-
-  printf("Please enter the height of a triangle: ");
-
-  scanf("%lf", &height);
+  base = atof(argv[1]);
+  height = atof(argv[2]);
 
   area = (double) 1 / 2 *  base * height;
 

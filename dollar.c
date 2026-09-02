@@ -16,8 +16,8 @@ int main(int argc, char **argv) {
     printf("Please input the total amount of US Dollars: ");
     scanf("%d", &USD);
 
-    float fee = USD * .10;
-    printf("Fee (10%%): %.2f100$\n", fee);
+    double fee = USD * .10;
+    printf("Fee (10%%): %.2f$\n", fee);
 
     printf("You get: \n");
 

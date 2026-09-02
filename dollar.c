@@ -21,10 +21,10 @@ int main(int argc, char **argv) {
 
     printf("You get: \n");
 
-    int JPY = USD * .90 / 2 * 127.65;
+    int JPY = USD * .90 / 2 * 128.16;
     printf("%d JPY\n", JPY);
 
-    float GBP = USD * .90 / 2 * .79;
+    float GBP = USD * .90 / 2 * .7935;
     printf("%.2f GBP\n", GBP);
 
 }
